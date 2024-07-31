@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apology Website</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div id="page1" class="page">
+        <p class="cursive-text">WE ARE REALLY SORRY FOR HURTING YOU. YOU ARE VERY SPECIAL FOR US TOO. YOU WILL BE ALWAYS DEAR TO BOTH OF US</p>
+        <button onclick="showPage2()">Next</button>
+    </div>
+    
+    <div id="page2" class="page hidden">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSivoEgkZpUPEwH4ovvhZc05DcAaH1fUbmTSPTmv7Xa7A&s" alt="Cartoon" class="cartoon-image">
+        <p class="text">AB TO MAAFI MIL GAYI NA?</p>
+        <button id="yes-button" onclick="showThankYou()">YES</button>
+        <button id="no-button" onclick="forceYes()">NO</button>
+    </div>
+    
+    <div id="thank-you" class="page hidden">
+        <p class="text">Yeah Thank you, Ms. Prettiest Smile</p>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>

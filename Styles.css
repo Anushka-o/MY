@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    text-align: center;
+}
+
+.page {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.cursive-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+.cartoon-image {
+    width: 200px;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #7d8cc4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #6c7ac1;
+}
